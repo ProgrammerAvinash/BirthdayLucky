@@ -43,6 +43,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   margin: 2rem;
+  margin-bottom: 0;
 }
 
 a::before {
@@ -65,11 +66,13 @@ i:hover::before {
 a {
   margin: 2rem;
   height: 20vh;
+  margin-bottom: 0;
 }
 
 .Social-Links i {
   font-size: 3.5em;
   padding: 8px;
+  margin-bottom: 0;
 }
 i:hover {
   transform: translateY(-5px);
